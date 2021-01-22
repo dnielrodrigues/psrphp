@@ -1,0 +1,33 @@
+{
+    "name": "dnielrodrigues/rotas",
+    "description": "Projeto de teste de rotas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "license": "privacy",
+    "authors": [
+        {
+            "name": "Infocasp",
+            "email": "contato@infocasp.com.br"
+        },
+        {
+            "name": "Daniel Rodrigues",
+            "email": "danielrodrigues.a113@gmail.com"
+        },
+        {
+            "name": "Junior Freitas",
+            "email": "contato@infocasp.com.br"
+        }
+    ],
+    "require": {
+        "league/route": "^4.5",
+        "laminas/laminas-diactoros": "^2.4",
+        "laminas/laminas-httphandlerrunner": "^1.2"
+    }
+}
